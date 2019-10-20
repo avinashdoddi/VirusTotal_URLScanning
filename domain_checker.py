@@ -8,7 +8,7 @@ print("started")
 # reading excel sheet
 def api_fun(every_item):
     url = 'https://www.virustotal.com/vtapi/v2/url/report'
-    params = {'apikey': '5f522cd287653f78b1378fceb8929a938bcf8012f524e008301cc7fb3ec4a533', 'resource':every_item}
+    params = {'apikey': '#Your public API Key here', 'resource':every_item}
     response = requests.get(url, params=params)
     #print(response.json())
     json_output = response.json()
