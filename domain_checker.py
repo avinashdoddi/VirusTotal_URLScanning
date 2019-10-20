@@ -1,4 +1,4 @@
-#install pandas and xlrd packages before running the script
+#install pandas, xlrd and openpyxl packages before running the script
 import pandas as pd
 import time
 import json
@@ -57,14 +57,3 @@ for every_item in domain_list:
 
 
 
-#have to send 4 requests at once and need to wait for atleast a minute
-#and then has to send another 4 and so on....
-#def pull_domains_from_excel_sheet():
-    #pass the domains throught VT API and store the result in excelsheet.
-
-
-#the received output has to store in one excel sheet
-
-
-
-#examine the output and keep the nessary col in the excel sheet.
